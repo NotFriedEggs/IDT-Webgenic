@@ -4,14 +4,25 @@
 <meta charset="utf-8">
 <title>Untitled Document</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 	
 	<nav class="navbar">
-		<button href="#"> Home </button>
-		<button href="#"> About </button>
-		<button href="#"> Contact </button>
+		<a href="#"> Home </a>
+		<a href="#"> About </a>
+		<a href="#"> Contact </a>
+		<div class="dropdown">
+			<button class="dropbtn">Dropdown
+				<i class="fa fa-caret-down"></i>
+			</button>
+		  <div class="dropdown-content">
+			  <a href="#">Link 1</a>
+			  <a href="#">Link 2</a>
+			  <a href="#">Link 3</a>
+		  </div>
+		</div>
 	</nav>
 	
 	<div class="herobanner">

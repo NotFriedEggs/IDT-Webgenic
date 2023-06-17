@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+* {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.TopHeader {
+	background-image: url("images/super hero.png");
+	padding-bottom: 20%;
+	background-size: cover;
+}
+
+.TopBar {
+	background-color: #323232;
+	overflow: hidden;
+}
+
+.TopBar a {
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+.TopBar a:hover {
+	background-color: #484848;
+}

@@ -12,15 +12,54 @@
 
 .navbar {
 	display: flex; 
-	background-color: darkslategrey;
+	overflow: hidden;
+	background-color: #212121;
 }
 
-.navbar button {
-	background-color: darkslategrey;
+.navbar a {
+	background-color: #212121;
 	float: left;
 	border: none;
 	padding: 14px 16px;
 	font-size: 15px;
 	color: white;
 	text-decoration: none; 
+	transition: background-color 0.3s ease;
 }
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	transition: background-color 0.3s ease;
+}
+
+.dropdown-content a {
+	float: none;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	color: white;
+	background-color: darkslategrey;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+.navbar a:hover {background-color: #2A2A2A;}
+.dropbtn:hover {background-color: #2A2A2A;}

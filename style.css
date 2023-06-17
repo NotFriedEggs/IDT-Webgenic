@@ -4,24 +4,26 @@
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
-.TopHeader {
+.herobanner {
 	background-image: url("images/super hero.png");
 	padding-bottom: 20%;
 	background-size: cover;
 }
 
-.TopBar {
-	background-color: #323232;
-	overflow: hidden;
+.navbar {
+	display: flex; 
+	background-color: darkslategrey;
 }
 
-.TopBar a {
+.navbar button {
+	background-color: darkslategrey;
 	float: left;
-	color: white;
+	border: none;
 	padding: 14px 16px;
-	text-align: center;
+	color: white;
+	text-decoration: none; 
 }
 
-.TopBar a:hover {
-	background-color: #484848;
+.navbar button:hover {
+  background-color: green;
 }

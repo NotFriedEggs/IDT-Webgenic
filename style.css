@@ -6,14 +6,13 @@
 
 .herobanner {
 	background-image: url("images/super hero.png");
-	padding-bottom: 20%;
+	padding-bottom: 25%;
 	background-size: cover;
 }
 
 .navbar {
-	display: flex; 
-	overflow: hidden;
-	background-color: #212121;
+	margin: 0 auto;
+	top: 0pc;
 }
 
 .navbar a {

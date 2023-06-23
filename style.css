@@ -3,10 +3,11 @@
 body, html {
 	height: 100%;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0px auto;
 }
 
 .herobanner {
-	background-image: url("images/autum.jpg");
+	background-image: url("images/wallpaperflare.com_wallpaper (1).jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -25,18 +26,34 @@ body, html {
 
 .herotext h1 {
 	margin-top: auto;
+	font-size: 50px;
+	color: #FFFFFF;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000000;
 }
 
 .navbar {
 	overflow: hidden;
-	background-color: #573E1D;
+	background-image: url("images/astronomy-1867616_640.jpg");
+	width: 100%;
+	height: 50px;
 }
 
 .navbar a {
 	float: left;
-	border: none;
-	padding: 14px 16px;
+	background-color: rgba(0,0,0,0.75);
+	border: 1px solid;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
 	font-size: 16px;
 	color: white;
 	text-decoration: none; 
+	transition: all .2s ease;
+}
+
+.navbar a:hover {
+	background-color:#FFFFFF;
+	border: 1px solid white;
+	color: black;
 }

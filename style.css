@@ -11,6 +11,15 @@ hr {
 	width: 30%;
 }
 
+footer {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
 .row {
 	margin-top: 50px;
 	padding-bottom: 150px;
@@ -52,6 +61,14 @@ hr {
 	content: url("images/2639759_about_icon (2).png");
 }
 
+.column:hover > img.clothing {
+	content: url("images/clothing black.png");
+}
+
+.column:hover > img.contact {
+	content: url("images/envelope black.png");
+}
+
 .homeabouttext {
 	margin-top: 50px;
 	color: white;
@@ -68,8 +85,9 @@ hr {
 }
 
 .herobanner {
-	background-image: url("images/wallpaperflare.com_wallpaper (1).jpg");
+	background-image: url("images/autumn.jpg");
 	background-size: cover;
+	image-resolution: snap;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;

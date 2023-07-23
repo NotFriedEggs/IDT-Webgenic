@@ -176,3 +176,15 @@ footer {
 	border-radius: 8px;
 	border: 2px solid #D9D9D9;
 }
+
+.slideshow-container {
+	background-color: aqua;
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row-col

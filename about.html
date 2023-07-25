@@ -11,17 +11,58 @@
 		<nav class="navbar">
 			<h1>DECIDUOUS WEAR</h1>
 			<a href="#"> Contact</a>
-			<a href="#"> About </a>
+			<a href="#about"> About </a>
 			<a href="#"> Products </a>
-			<a href="#"> Home </a>
+			<a href="#index"> Home </a>
 		</nav>
 	</header>
 	
 	<div class="herobanner-about"></div>
-	<div class="herotextborder">
-		<h1 class="herotext">DECIDUOUS WEAR</h1>
-		<p class="herotext2">ABOUT US</p>
+	<div class="herotextborder-about">
+		<h1 class="herotext">ABOUT US</h1>
 	</div>
+	
+	<h1 class="about-title">About Deciduous Wear</h1>
+	<p class="about-para">Discover Deciduous Wear, your go-to for warm, autumn-colored clothing. Embrace nature's hues in cozy comfort and timeless style. Fall fashion reimagined, empowering you to make a statement wherever you go.</p>
+	
+	<button class="accordion">"What is your clothing made of?"</button>
+	<div class="panel">
+ 		 <p>Our clothing at Deciduous Wear is made from carefully selected, premium-quality materials. We prioritize comfort and sustainability, using natural fibers like cotton, wool, and eco-friendly fabrics to create garments that feel as good as they look.</p>
+	</div>
+
+	<button class="accordion">"Are your clothes true to size?"</button>
+	<div class="panel">
+		<p>Yes, at Deciduous Wear, we take great care to ensure our clothes are true to size. We provide detailed sizing charts to help you find the perfect fit. If you need further assistance, our customer support team is always ready to help.</p>
+	</div>
+
+	<button class="accordion">"Do you offer international shipping?"</button>
+	<div class="panel">
+		<p>Absolutely! We offer international shipping at Deciduous Wear. Wherever you are in the world, you can enjoy our stylish clothing collections. Please note that shipping times and fees may vary depending on your location.</p>
+	</div>
+	
+	<button class="accordion">"What is your shipping policy?"</button>
+	<div class="panel">
+		<p>At Deciduous Wear, we strive to provide a seamless and satisfactory shopping experience. Our shipping policy is designed to ensure timely delivery and customer satisfaction</p>
+	</div>
+	
+	<button class="about-contact-button">Any more questions? Contact us today</button>
+	
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+			  panel.style.maxHeight = null;
+			} else {
+			  panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		  });
+		}
+	</script>
 	
 	<footer class="footer">
 		<p>© 2023 www.deciduouswear - All Rights Reserved.</p>
